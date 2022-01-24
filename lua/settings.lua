@@ -1,5 +1,4 @@
 vim.wo.number = true
-vim.o.colorcolumn = "81"
 vim.o.laststatus = 0
 vim.o.smartindent = true
 vim.o.autoindent = true
@@ -12,7 +11,7 @@ vim.o.hidden = true
 vim.o.wrap = false
 vim.o.encoding="UTF-8"
 vim.o.fileencoding="utf-8"
-vim.o.ruler = false
+vim.o.ruler = true
 vim.o.mouse="a"
 vim.o.cursorline = true
 vim.o.splitbelow = true
