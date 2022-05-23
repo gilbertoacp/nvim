@@ -7,5 +7,4 @@ require('plugins.lsp')
 require('plugins.galaxyline')
 require('plugins.nvim-tree')
 require('plugins.telescope')
-require('plugins.toggleterm')
 
