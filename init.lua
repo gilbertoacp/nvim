@@ -1,10 +1,12 @@
-require('globals')
-require('plugins')
-require('keymaps')
-require('settings')
-require('appearance')
-require('plugins.lsp')
-require('plugins.galaxyline')
-require('plugins.nvim-tree')
-require('plugins.telescope')
+-- general settings
+require 'globals'
+require 'plugins'
+require 'keymaps'
+require 'settings'
+require 'appearance'
+
+-- plugins
+require 'plugins.nvim-tree'
+require 'plugins.telescope'
+require 'plugins.vim-commentary'
 

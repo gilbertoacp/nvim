@@ -14,12 +14,6 @@ return require('packer').startup(
     use 'romgrk/barbar.nvim'
 
     use {
-        'glepnir/galaxyline.nvim',
-        branch = 'main',
-        requires = {'kyazdani42/nvim-web-devicons', opt = true}
-    }
-
-    use {
         'nvim-telescope/telescope.nvim',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
@@ -30,16 +24,14 @@ return require('packer').startup(
     }
 
     use 'nvim-treesitter/nvim-treesitter'
-    
-    use 'akinsho/toggleterm.nvim'
-
+  
     use 'joshdick/onedark.vim'
 
-    use 'neovim/nvim-lspconfig'
-    
     use {
         'kaicataldo/material.vim',
         branch = 'main'
-    } 
+    }
+
+    use 'tpope/vim-commentary'
   end
 )
